@@ -14,7 +14,7 @@ export default function PageLayout({ styleOb }) {
     color: "black",
   };
   return (
-    <div className="w-100">
+    <div className="w-100 h-100">
       <div
         className="header w-100 d-flex align-items-center justify-content-evenly px-4 py-2 position-fixed"
         style={styleOb}
@@ -91,9 +91,15 @@ export default function PageLayout({ styleOb }) {
       <div className="main">
         <Outlet />
       </div>
-      <div className="footer d-flex pt-5 justify-content-between bg-secondary ">
-        <div className="col-md-6">This is a Footer</div>
-        <div className="col-md-6">This is a Footer</div>
+      <div className="footer py-5 d-md-flex  justify-content-between bg-secondary ">
+        <div className="col-md-6 d-flex align-items-end">
+          <h2 className="text-info ps-4">ERCH GRAND LLC @2023</h2>
+        </div>
+        <div className="col-md-6">
+          <h5 className="text-light">Санал хүсэлт</h5>
+          <input type="text" className="form-control w-50" />
+          <button className="btn btn-warning mt-3">Submit</button>
+        </div>
       </div>
     </div>
   );

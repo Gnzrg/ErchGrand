@@ -120,33 +120,62 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="container-fluid pb-5 mb-5 d-flex flex-column justify-content-center">
-        <h1 className="text-center pb-5">Хамтран ажиллагч байгууллагууд</h1>
-        <div className="w-100 d-flex overflow-auto">
-          <div className="col-md-4">
-            <h1>Helol</h1>
+        <div className="w-100 overflow-auto d-md-flex">
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/toyota.png")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/ford.jpg")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/chevrolet.png")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center d-flex align-items-center">
+            <img
+              src={require("../images/honda.png")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/lexus.png")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/mazda.png")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/Nissan_logo.png")}
+              alt=""
+              className="w-100 "
+            />
           </div>
-          <div className="col-md-4">
-            <h1>Helol</h1>
+          <div className="col-md-2 d-flex align-items-center">
+            <img
+              src={require("../images/subaru.jpg")}
+              alt=""
+              className="w-100 "
+            />
           </div>
         </div>
       </div>
